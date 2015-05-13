@@ -63,6 +63,11 @@ video#home_vid {
   }
 }
 
+.logo_bar {
+  height: 180px;
+  background-color: rgba(39,39,39,0.6);
+}
+
 .logo_text {
   position: fixed;
   top: 5px;
@@ -86,7 +91,14 @@ video#home_vid {
   z-index: 9999;
 }
 
-.teaser_text {
+.social_bar {
+  background-color: rgba(39,39,39,0.6);
+  height: 78px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.social_text{
   position: fixed;
   bottom: 15px;
   left:50%;
