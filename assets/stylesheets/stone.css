@@ -65,7 +65,7 @@ video#home_vid {
 
 .logo_bar {
   height: 180px;
-  background-color: rgba(39,39,39,0.6);
+  background-color: rgba(39,39,39,1);
 }
 
 .logo_text {
@@ -92,7 +92,7 @@ video#home_vid {
 }
 
 .social_bar {
-  background-color: rgba(39,39,39,0.6);
+  background-color: rgba(39,39,39,1);
   height: 78px;
   width: 100%;
   position: fixed;
