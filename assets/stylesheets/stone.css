@@ -79,13 +79,13 @@ video#home_vid {
   position: fixed;
   top: 5px;
   left:50%;
-  margin-left:-250px;
+  margin-left:-150px;
   color: #fff;
   text-align: center;
   width: 100%;
   z-index: 9999;
   font-size: 25px;
-  max-width: 500px;
+  max-width: 300px;
   line-height: 21px;
 }
 
