@@ -14,7 +14,7 @@ body {
 }
 
 video#home_vid {
-  position: fixed; right: 0; bottom: 0;
+  position: fixed; right: 0; bottom: gm
   min-width: 100%; min-height: 100%;
   width: auto; height: auto; z-index: -100;
   background-size: cover;
@@ -63,22 +63,17 @@ video#home_vid {
   }
 }
 
-.logo_bar {
-  height: 180px;
-  background-color: rgba(39,39,39,1);
-}
-
 .logo_text {
   position: fixed;
   top: 5px;
   left:50%;
-  margin-left:-200px;
+  margin-left:-225px;
   color: #fff;
   text-align: center;
   width: 100%;
   z-index: 9999;
   font-size: 25px;
-  max-width: 400px;
+  max-width: 450px;
   line-height: 21px;
 }
 
@@ -91,13 +86,6 @@ video#home_vid {
   z-index: 9999;
 }
 
-.social_bar {
-  background-color: rgba(39,39,39,1);
-  height: 78px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-}
 .social_text{
   position: fixed;
   bottom: 15px;
