@@ -13,16 +13,27 @@ body {
   overflow-y:hidden;
 }
 
+body,html {
+  height: 100%;
+}
+
 video#home_vid {
-  position: fixed; right: 0; bottom:0; 
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background-size: cover;
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:auto;height:auto;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index:0;
+  background-size:cover;
 }
 
 .vid_wrapper {
   position: relative;
-  line-height: 0;
+  width:100%;height:100%;
+  overflow:hidden;
 }
 
 .mobile_hp_img {
