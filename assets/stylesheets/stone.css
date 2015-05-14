@@ -21,6 +21,7 @@ video#home_vid {
   position:absolute;
   left:50%;
   top:50%;
+  min-width:100%;min-height:100%;
   width:auto;height:auto;
   -webkit-transform: translate(-50%,-50%);
   -moz-transform: translate(-50%,-50%);
